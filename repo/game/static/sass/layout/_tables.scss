@@ -1,0 +1,13 @@
+tr, td, th {
+  text-align: left;
+  padding: $medium-large-padding $normal-padding;
+  color: $grey;
+}
+
+th {
+  color: $black;
+}
+
+table {
+  overflow-x: scroll;
+}

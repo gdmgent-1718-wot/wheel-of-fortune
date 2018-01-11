@@ -1,0 +1,37 @@
+/* _-_-_- modules/BUTTONS -_-_-_ */
+
+
+button, .link-as-button {
+  color: $white;
+  padding: $medium-small-padding;
+  background-color: $light-orange;
+  border: solid;
+  border-color: $light-orange;
+  border-radius: $medium-small-radius;
+  outline: none;
+  display: block;
+}
+
+button:hover, .link-as-button:hover {
+  background-color: $dark-orange;
+  color: $white;
+}
+
+
+.letter-button {
+  display: inline-block;
+  margin: $min-margin;
+  border-radius: $small-radius;
+  border-style:solid;
+  border-color: $red;
+  background-color: $white;
+  color: $grey;
+  border-width: $min-border-width;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: $faded-grey;
+  color: $grey;
+border-style: none;
+}

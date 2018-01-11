@@ -1,0 +1,19 @@
+.alertbox {
+  background-color: #fbfbfb;
+  position: fixed;
+  text-align: left;
+  box-shadow: 10px 10px;
+  color: $light-orange;
+  width: 85%;
+  max-width: 500px;
+  z-index: 1000000000;
+}
+
+.alertbox p {
+  margin: $medium-large-margin;
+}
+
+.alertbox button {
+  float: right;
+  margin: $medium-large-margin;
+}

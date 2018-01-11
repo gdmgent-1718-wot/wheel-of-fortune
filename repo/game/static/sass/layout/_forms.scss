@@ -1,0 +1,18 @@
+/* _-_-_- layout/FORMS -_-_-_ */
+
+input, label, form button, form select {
+  display: block;
+  margin: $normal-margin 0;
+}
+
+form input, form button, form select {
+  padding: $medium-small-padding;
+  border: solid;
+  border-color: $light-orange;
+  border-radius: $medium-small-radius;
+  outline: none;
+}
+
+form a {
+  padding: $medium-small-padding;
+}
