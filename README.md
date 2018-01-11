@@ -8,7 +8,7 @@
 - Keuzeoptie: New Media Development
 - Opleidingsinstelling: Arteveldehogeschool
 
-## Folderstructure
+## Folderstructuur
 - docs
     - Productiedossier
     - Timesheets
