@@ -12,6 +12,7 @@
 - docs
     - Productiedossier
     - Timesheets
+    - Presentatie
 - repo
     - Game
         - Dit omvat een Vue.js project en zal het volledige spel omvatten.

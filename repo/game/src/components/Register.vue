@@ -12,7 +12,7 @@
           <input v-model="email" class="col-10" type="text"  id="emailid" aria-describedby="emailHelp" placeholder="janmodaal@test.be">
           <label for="passwordid">Wachtwoord</label>
           <input v-model="password" id="passwordid" placeholder="Password" class="col-10" type="password">
-          <button v-on:click="register" type="submit">Registreer</button>
+          <button v-on:click="register" type="button">Registreer</button>
           <router-link :to="{ name: 'Login' }">Al een account? Log je nu in.</router-link>
           <p class="error">{{message}}</p>
         </form>
